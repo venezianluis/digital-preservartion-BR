@@ -13,13 +13,14 @@ As fontes primárias estão relacionadas aos [dados brutos](https://en.wikipedia
 ### Fontes OpenStreetMap Geofabrik
 O [mapa OSM](https://www.openstreetmap.org/about) cobre todo o planeta, é mantido pela [Openstreetmap Foundation](https://blog.osmfoundation.org/about/), uma fundação inglesa registrada sob *Company Registration Number 05912761*.
 
-Diversos recortes do mapa OSM são gerados pela  [empresa alemã e membro da OSMF, Geofabrik](https://www.geofabrik.de/geofabrik/openstreetmap.html). Seus recortes são considerados fiáveis e utilizados por governos e empresas por todo o mundo, portanto  amplamente auditados. Por orientação do projeto  [OSM-Stable Brasil](https://github.com/OSMBrasil/stable) ([docs](http://addressforall.org/osms/)),  o Instituto AddressForAll também  faz uso desses recortes. 
+O [plantea inteiro](https://planet.openstreetmap.org/) é uma massa de dados tão grande que inviabiliza filtragem de dados específicos. Diversos recortes do mapa OSM são [gerados por membros da OSMF](https://wiki.openstreetmap.org/wiki/Planet.osm), entre eles a  [empresa alemã, Geofabrik](https://www.geofabrik.de/geofabrik/openstreetmap.html) (*USt-Id DE222535480*). Seus recortes são considerados fiáveis e utilizados por governos e empresas por todo o mundo, portanto  amplamente auditados. Por orientação do projeto  [OSM-Stable Brasil](https://github.com/OSMBrasil/stable) ([docs](http://addressforall.org/osms/)),  o Instituto AddressForAll também  faz uso desses recortes. 
 
 Os metadados dos arquivos preservados estão descritos no *git* do projeto, [git/OSMBrasil/stable/brazil-latest.osm.md](https://github.com/OSMBrasil/stable/blob/master/brazil-latest.osm.md#dump-opensstreetmap-do-brasil).
 
 ### Fontes IBGE
-Fonte dos dados estatísticos oficiais do Brasil, bem elementos de cartografia e localização de endereços. Por ser uma fonte muito extensa, requer  [curadoria e decisões de projeto](https://github.com/AddressForAll/digital-preservartion-BR/issues/1).
+Fonte dos dados estatísticos oficiais do Brasil, bem como elementos de cartografia e localização de endereços. O IBGE - Instituto Brasileiro de Geografia e Estatística (*CNPJ  33.787.094/0001-40*)
 
+Por ser uma fonte muito extensa, requer  [curadoria e decisões de projeto](https://github.com/AddressForAll/digital-preservartion-BR/issues/1).
 
 ### Fontes nas prefeituras
 Por ser uma fonte muito extensa e diversificada, requer  [curadoria e decisões de projeto](https://github.com/AddressForAll/digital-preservartion-BR/issues/1).
@@ -40,6 +41,6 @@ O Depósito legal dos metadados e da normalização das fontes é realizado em d
 
 * **Depósito legal** realizado anualmente através da consolidação dos metados e códigos-fonte em um documento entitulado **"Inventário Anual  AddressForAll"**, junto à Fundação Biblioteca Nacional. O [*depósito legal* é um dispositivo previsto pelas leis federais nº 10.994 de 2004 e  nº 12.192 de 2010](https://www.bn.gov.br/sobre-bn/deposito-legal).
 
-
+A preservação do arquivo em si (muitos Gigabytes) é feita por contratos de longo prazo (décadas), ainda em estudo. Uma vez no repositório definitivo, alguns parceiros se comprometem também com réplicas. PS: sistemas como  Filecoin ou LOCKSS, também em estudo, geram as réplicas de segurança automaticamente.
 
  
