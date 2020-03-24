@@ -17,13 +17,29 @@ Diversos recortes do mapa OSM são gerados pela  [empresa alemã e membro da OSM
 
 Os metadados dos arquivos preservados estão descritos no *git* do projeto, [git/OSMBrasil/stable/brazil-latest.osm.md](https://github.com/OSMBrasil/stable/blob/master/brazil-latest.osm.md#dump-opensstreetmap-do-brasil).
 
-## Fontes IBGE
+### Fontes IBGE
 Fonte dos dados estatísticos oficiais do Brasil, bem elementos de cartografia e localização de endereços. Por ser uma fonte muito extensa, requer  [curadoria e decisões de projeto](https://github.com/AddressForAll/digital-preservartion-BR/issues/1).
 
 
-## Fontes nas prefeituras
+### Fontes nas prefeituras
 Por ser uma fonte muito extensa e diversificada, requer  [curadoria e decisões de projeto](https://github.com/AddressForAll/digital-preservartion-BR/issues/1).
 
 
+## Normalização das fontes
+Os conjuntos de dados de cada fonte apresentam formatos e características de modelagem de dados distintas. Para que possam ser comparados entre si ou processados pelas ferramentas internas do AddressForAll, precisam estar todos obedecendo a um mesmo esquema, todos modelados com uma semântica.
+
+A transformação que se aplica a um determinado conjunto de dados da *fonte primária* para chegar no modelo de dados padrão AddressForAll, é denominada **normalização**. A descrição da metodologia, dos algorímos, bem como os códigos-fonte do software de normalização, são todos também preservados, com a mesma perspectiva de longo prazo que os dados da fonte primária.
+
+Todos os elementos da normalização são repositórios *git* com licença aberta e publicamente distribuidos, atualmente em https://github.com/AddressForAll
+
+## Depósito legal e preservação digital
+
+O Depósito legal dos metadados e da normalização das fontes é realizado em dois meios complementares, tendo em vista que no Brasil os cartórios e o sistema jurídico ainda não são 100% digitais.
+
+* **Depósito em blockchain** realizado previamente a cada confirmação de entrada, no "cartório digital" [Uniproof.com.br](https://uniproof.com.br/), garangtindo a integridade dos registros da licença e de integridade dos arquivos da fonte.
+
+* **Depósito legal** realizado anualmente através da consolidação dos metados e códigos-fonte em um documento entitulado **"Inventário Anual  AddressForAll"**, junto à Fundação Biblioteca Nacional. O [*depósito legal* é um dispositivo previsto pelas leis federais nº 10.994 de 2004 e  nº 12.192 de 2010](https://www.bn.gov.br/sobre-bn/deposito-legal).
 
 
+
+ 
