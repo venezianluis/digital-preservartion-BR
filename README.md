@@ -29,7 +29,7 @@ Por ser uma fonte muito extensa e diversificada, requer  [curadoria e decisões 
 ## Normalização das fontes
 Os conjuntos de dados de cada fonte apresentam formatos e características de modelagem de dados distintas. Para que possam ser comparados entre si ou processados pelas ferramentas internas do AddressForAll, precisam estar todos obedecendo a um mesmo esquema, todos modelados com uma semântica.
 
-A transformação que se aplica a um determinado conjunto de dados da *fonte primária* para chegar no modelo de dados padrão AddressForAll, é denominada **normalização**. A descrição da metodologia, dos algorímos, bem como os códigos-fonte do software de normalização, são todos também preservados, com a mesma perspectiva de longo prazo que os dados da fonte primária.
+A transformação que se aplica a um determinado conjunto de dados da *fonte primária* para chegar no modelo de dados padrão AddressForAll, é denominada **normalização**. A descrição metodológica, do algoritmo, bem como os códigos-fonte do software de normalização, são todos também preservados, com a mesma perspectiva de longo prazo que os dados da fonte primária.
 
 Todos os elementos da normalização são repositórios *git* com licença aberta e publicamente distribuidos, atualmente em https://github.com/AddressForAll
 
